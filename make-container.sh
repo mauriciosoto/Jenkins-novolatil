@@ -1,2 +1,1 @@
-docker build -t jenkins-container .
-docker volume create jenkins-data
+docker build -t jenkins-image .
