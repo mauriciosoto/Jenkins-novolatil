@@ -1,1 +1,1 @@
-docker run -p 8080:8080 --mount source=datos-novolatiles-jenkins,destination=/var/jenkins_home devops-eval
+docker run -p 8080:8080 --mount source=jenkins-data,target='//var//jenkins_home2' jenkins-container
